@@ -1,0 +1,187 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Header */
+  header {
+    background-color: #222;
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  nav .logo h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    font-size: 16px;
+  }
+  
+  nav ul li a:hover {
+    color: #f4a261;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-image: url('suit-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero-content p {
+    font-size: 1.5rem;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #f4a261;
+    border: none;
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #e76f51;
+  }
+  
+  /* Suit Collection Section */
+  .collection {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .collection h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .suits {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  .suit {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .suit img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .suit p {
+    margin: 10px 0;
+  }
+  
+  .add-to-cart {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #264653;
+  }
+  
+  /* Contact Form Section */
+  .contact {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  form label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+  }
+  
+  form button {
+    background-color: #264653;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  form button:hover {
+    background-color: #2a9d8f;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+
+
+  h1{
+    margin: auto;
+    text-align: center;
+  }
